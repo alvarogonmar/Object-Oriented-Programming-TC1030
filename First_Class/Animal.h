@@ -24,8 +24,8 @@ class Animal
     // variables - type name;
     // los atributos son privados
 private:
-    int age;
-    int weight;
+    int age = 0;
+    int weight = 0;
 
     // CONSTRUCTOR: a method that is automatically involved when creatin a new object of a clas
     // in c++ it MUST be named the same as the class, it has no return type
