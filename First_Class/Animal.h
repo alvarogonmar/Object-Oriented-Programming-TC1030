@@ -19,4 +19,6 @@ class Animal
 
     // methods - returnType name(parameterList)
     void eat();
+
+    int add(int firstValue, int secondeValue);
 };
