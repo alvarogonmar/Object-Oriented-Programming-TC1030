@@ -3,6 +3,9 @@
 // IMPORTANT - THEY must be related EXPLICITILY
 #include "Animal.h"
 
+Animal::Animal() {}
+Animal::Animal(int age, int weight) {}
+
 // we will implement the methods here
 
 void Animal::eat()
