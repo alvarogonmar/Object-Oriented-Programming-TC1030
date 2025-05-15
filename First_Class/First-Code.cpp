@@ -7,6 +7,8 @@
 
 // IDE: Integrated Development Environment
 // visual tool hekps us develop software, like Visual Studio, xcode, visual studio code, etc.
+
+// main function: in c++ we hacve a main entry point that willl run when we "press play"
 int main()
 {
     std::cout << "Hello, World!" << std::endl;
