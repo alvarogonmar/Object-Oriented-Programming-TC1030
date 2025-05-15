@@ -14,6 +14,7 @@
 int main()
 {
     // :: - scope resolution operator
+    // \n - line break o endl
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
