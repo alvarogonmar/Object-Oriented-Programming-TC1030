@@ -10,6 +10,7 @@
 // constants and enums use UPPER_CASE
 
 // we define in class the contract (estructura de la clase)
+#include <iostream>
 class Animal
 {
     // INSIDE a class we define MEMBERS!

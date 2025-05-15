@@ -7,6 +7,7 @@
 
 void Animal::eat()
 {
+    std::cout << "NOM NOM" << std::endl;
 }
 
 int Animal::add(int firstValue, int secondeValue)
