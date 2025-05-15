@@ -1,4 +1,6 @@
 // Import a header into my current source code
+// < > used for standar library headers or libraries installed
+// " " for your own headers and files in your source tree
 #include <iostream> // in - input / output
 #include "Animal.h"
 
@@ -17,5 +19,7 @@ int main()
     // :: - scope resolution operator
     // \n - line break o endl
     std::cout << "Hello, World!" << std::endl;
+    // creating an object
+    Animal animal_1;
     return 0;
 }
