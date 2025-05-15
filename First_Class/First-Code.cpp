@@ -4,6 +4,9 @@
 // -msvc is the Microsoft Visual C++ compiler
 // -g++ is the GNU C++ compiler
 // -clang++ is the Clang C++ compiler
+
+// IDE: Integrated Development Environment
+// visual tool hekps us develop software, like Visual Studio, xcode, visual studio code, etc.
 int main()
 {
     std::cout << "Hello, World!" << std::endl;
