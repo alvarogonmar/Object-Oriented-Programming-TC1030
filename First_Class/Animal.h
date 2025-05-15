@@ -27,15 +27,15 @@ private:
     int age = 0;
     int weight = 0;
 
-    // CONSTRUCTOR: a method that is automatically involved when creatin a new object of a clas
-    // in c++ it MUST be named the same as the class, it has no return type
-
-    Animal(); // Default constructor - with no parameters
-    Animal(int age, int weight);
-
     //  methods - returnType name(parameterList)
     //  this is called a signature (firma)
 public:
     void eat();
     int add(int firstValue, int secondeValue);
+
+    // CONSTRUCTOR: a method that is automatically involved when creatin a new object of a clas
+    // in c++ it MUST be named the same as the class, it has no return type
+
+    Animal(); // Default constructor - with no parameters
+    Animal(int age, int weight);
 };
