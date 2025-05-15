@@ -11,18 +11,25 @@
 
 // we define in class the contract (estructura de la clase)
 #include <iostream>
+
+// IMPORTANTE - ACCess modifiers - keywords that specify who can access a member
+// private: member only accessibe by the class itself DEFAULT IN C++
+// protected: accesible bby the lass itself and any in the subclass hierarchy
+// public: anyone can accesess the members
 class Animal
 {
     // INSIDE a class we define MEMBERS!
     // we have 2 big categories: Attributes(caracteristicas) and behaviors(las cosas que hacen)
 
     // variables - type name;
+    // los atributos son privados
+private:
     int age;
     int weight;
 
     // methods - returnType name(parameterList)
     // this is called a signature (firma)
+public:
     void eat();
-
     int add(int firstValue, int secondeValue);
 };
