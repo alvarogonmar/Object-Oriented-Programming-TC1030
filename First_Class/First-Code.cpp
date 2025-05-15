@@ -1,5 +1,6 @@
 // Import a header into my current source code
 #include <iostream> // in - input / output
+#include "Animal.h"
 
 //  Compiler: a program that translates source code into binary
 // there are several compilers available for C++ such as GCC, Clang, MSVC, etc.
