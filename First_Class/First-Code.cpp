@@ -21,6 +21,6 @@ int main()
     std::cout << "Hello, World!" << std::endl;
     // creating an object
     Animal animal_1;
-    animal_1.add(2, 3);
+    std::cout << animal_1.add(2, 3) << std::endl;
     return 0;
 }
