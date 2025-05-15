@@ -1,4 +1,6 @@
-#include <iostream>
+// Import a header into my current source code
+#include <iostream> // in - input / output
+
 //  Compiler: a program that translates source code into binary
 // there are several compilers available for C++ such as GCC, Clang, MSVC, etc.
 // -msvc is the Microsoft Visual C++ compiler
@@ -11,6 +13,7 @@
 // main function: in c++ we hacve a main entry point that willl run when we "press play"
 int main()
 {
+    // :: - scope resolution operator
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
