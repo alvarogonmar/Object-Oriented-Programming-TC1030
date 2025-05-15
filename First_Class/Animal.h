@@ -8,6 +8,8 @@
 // classes should be named using PascalCode - NO SPACES IN NAMES
 // VARIABLES and objects use camelCase
 // constants and enums use UPPER_CASE
+
+// we define in class the contract (estructura de la clase)
 class Animal
 {
     // INSIDE a class we define MEMBERS!
