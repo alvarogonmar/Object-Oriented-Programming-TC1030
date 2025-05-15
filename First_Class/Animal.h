@@ -15,9 +15,10 @@ class Animal
 
     // variables - type name;
     int age;
-    int name;
+    int weight;
 
     // methods - returnType name(parameterList)
+    // this is called a signature (firma)
     void eat();
 
     int add(int firstValue, int secondeValue);

@@ -2,3 +2,5 @@
 
 // IMPORTANT - THEY must be related EXPLICITILY
 #include "Animal.h"
+
+// we will implement the methods here
