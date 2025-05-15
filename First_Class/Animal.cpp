@@ -12,4 +12,5 @@ void Animal::eat()
 
 int Animal::add(int firstValue, int secondeValue)
 {
+    return firstValue + secondeValue;
 }
