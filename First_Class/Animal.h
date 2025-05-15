@@ -11,4 +11,5 @@
 class Animal
 {
     // INSIDE a class we define MEMBERS!
+    // we have 2 big categories: Attributes(caracteristicas) and behaviors(las cosas que hacen)
 };
