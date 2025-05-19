@@ -29,6 +29,9 @@ int Animal::add(int firstValue, int secondeValue)
     return firstValue + secondeValue;
 }
 
-int Animal::getAge() {}
+int Animal::getAge()
+{
+    return age;
+}
 
 void Animal::setAge(int newAge) {}
