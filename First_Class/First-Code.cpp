@@ -44,5 +44,19 @@ int main()
     {
         std::cout << "ADULT ANIMAL" << std::endl;
     }
+
+    // USING SWITCH
+    switch (animal_1.getAge())
+    {
+    case 1:
+        std::cout << "ONE YER OLD" << std::endl;
+        break;
+    case 2:
+        std::cout << "TWO YER OLD" << std::endl;
+        break;
+    default:
+        std::cout << "SOME OTHER OLD" << std::endl;
+        break;
+    }
     return 0;
 }
