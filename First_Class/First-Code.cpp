@@ -69,13 +69,26 @@ int main()
     }
 
     // while
-    int i = 10;
+    std::cout << "While" << std::endl;
+    int i = 1;
     while (i < 10)
     {
         // SUPER IMPORTANT
         // if you are using a number for the condition in a whle ensure you are doing a change
         std::cout << i << std::endl;
         i++;
-        }
+
+        // we normally dont use while with a numeric condition
+    }
+
+    // do while
+    std::cout << "Do - While" << std::endl;
+
+    i = 0;
+    do
+    {
+        std::cout << i << std::endl;
+        i++;
+    } while (i < 10);
     return 0;
 }
