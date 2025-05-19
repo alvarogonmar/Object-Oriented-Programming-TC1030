@@ -60,5 +60,12 @@ int main()
         std::cout << "SOME OTHER OLD" << std::endl;
         break;
     }
+
+    // LOOPS
+    // for (initial value, condition; change){}
+    for (int i = 0; i < 10; i++)
+    {
+        std::cout << i << std::endl;
+    }
     return 0;
 }
