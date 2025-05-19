@@ -28,5 +28,21 @@ int main()
     // cannot do this:
     // std::cout << animal_1.age <<std::endl;
     // animal.age = 4
+
+    // flow control strcutures review - estructuras de control de flujo
+    // conditions:
+
+    if (animal_1.getAge() < 2)
+    {
+        std::cout << "BABY ANIMAL" << std::endl;
+    }
+    else if (animal_1.getAge() < 5)
+    {
+        std::cout << "YOUNG ANIMAL" << std::endl;
+    }
+    else
+    {
+        std::cout << "ADULT ANIMAL" << std::endl;
+    }
     return 0;
 }
