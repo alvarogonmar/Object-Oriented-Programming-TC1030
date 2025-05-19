@@ -23,5 +23,10 @@ int main()
     Animal animal_1;
     Animal animal_2(5, 2);
     std::cout << animal_1.add(2, 3) << std::endl;
+    std::cout << animal_1.getAge() << std::endl;
+
+    // cannot do this:
+    // std::cout << animal_1.age <<std::endl;
+    // animal.age = 4
     return 0;
 }
