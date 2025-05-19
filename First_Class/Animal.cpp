@@ -28,3 +28,7 @@ int Animal::add(int firstValue, int secondeValue)
 {
     return firstValue + secondeValue;
 }
+
+int Animal::getAge() {}
+
+void Animal::setAge(int newAge) {}
