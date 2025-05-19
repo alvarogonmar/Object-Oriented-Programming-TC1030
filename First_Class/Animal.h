@@ -36,9 +36,13 @@ public:
     // CONSTRUCTOR: a method that is automatically involved when creatin a new object of a clas
     // in c++ it MUST be named the same as the class, it has no return type
 
-    Animal(); // Default constructor - with no parameters
-    Animal(int age, int weight);
+    // Animal(); // Default constructor - with no parameters
+    // Animal(int age, int weight);
 
     // accessor methods
     // methods that are used to define who can read AND/OR write an attribute
+    int getAge();
+
+protected:
+    void setAge(int newAge);
 };
