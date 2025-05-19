@@ -67,5 +67,15 @@ int main()
     {
         std::cout << i << std::endl;
     }
+
+    // while
+    int i = 10;
+    while (i < 10)
+    {
+        // SUPER IMPORTANT
+        // if you are using a number for the condition in a whle ensure you are doing a change
+        std::cout << i << std::endl;
+        i++;
+        }
     return 0;
 }
