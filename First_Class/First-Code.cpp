@@ -1,3 +1,5 @@
+// To run: g++ First-Code.cpp Animal.cpp -o First-Code
+
 // Import a header into my current source code
 // < > used for standar library headers or libraries installed
 // " " for your own headers and files in your source tree
