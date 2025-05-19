@@ -38,4 +38,7 @@ public:
 
     Animal(); // Default constructor - with no parameters
     Animal(int age, int weight);
+
+    // accessor methods
+    // methods that are used to define who can read AND/OR write an attribute
 };
