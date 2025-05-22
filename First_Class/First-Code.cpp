@@ -91,7 +91,14 @@ int previousMain()
         std::cout << i << std::endl;
         i++;
     } while (i < 10);
-    return 0;
+    return -1;
 }
 
-int main() {}
+int main()
+{
+    Animal animal_1;
+    Mammal mammal_1;
+
+    animal_1.eat();
+    mammal_1.eat();
+}
