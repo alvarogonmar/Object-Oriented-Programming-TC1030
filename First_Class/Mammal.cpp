@@ -8,5 +8,7 @@ Mammal::Mammal(int age, int weight, std::string name) : Animal(age, weight), nam
 
 void Mammal::sayHello()
 {
+    // ypu CAN invoke the ersion of the superclass if you wish
+    Viviparous::sayHello();
     std::cout << "HELLO FROM MAMMAL" << std::endl;
 }
