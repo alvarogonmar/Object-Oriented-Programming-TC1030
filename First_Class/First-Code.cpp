@@ -107,4 +107,7 @@ int main()
     // viviparous_1.eat(); CANT DO
     viviparous_1.bornAlive();
     mammal_1.bornAlive();
+
+    viviparous_1.sayHello();
+    mammal_1.sayHello();
 }
