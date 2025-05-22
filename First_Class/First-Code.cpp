@@ -5,6 +5,7 @@
 // " " for your own headers and files in your source tree
 #include <iostream> // in - input / output
 #include "Animal.h"
+#include "Mammal.h"
 
 //  Compiler: a program that translates source code into binary
 // there are several compilers available for C++ such as GCC, Clang, MSVC, etc.
