@@ -98,7 +98,8 @@ int previousMain()
 int main()
 {
     Animal animal_1;
-    Mammal mammal_1;
+    // Mammal mammal_1; this will no longer work beacuse we are using a constructor
+    Mammal mammal_1(5, 20, "Fifi");
     Viviparous viviparous_1;
 
     animal_1.eat();
