@@ -12,6 +12,9 @@
 // c++ has multiple inheritance which means a clas can be a subclass of several superclasses
 class Mammal : public Animal, public Viviparous
 {
+private:
+    std::string name;
+
 public:
     Mammal(int age, int weight, std::string name);
 };
