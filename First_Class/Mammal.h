@@ -17,4 +17,7 @@ private:
 
 public:
     Mammal(int age, int weight, std::string name);
+
+    // when overriding a virutal method we nned to specify with the "override" keyword
+    void sayHello() override;
 };
