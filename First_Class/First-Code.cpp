@@ -110,4 +110,15 @@ int main()
 
     viviparous_1.sayHello();
     mammal_1.sayHello();
+
+    int value1;
+    std::string value2;
+    std::string value3;
+
+    // how to capture input from user
+    int userInput = 0;
+    do
+    {
+
+    } while (userInput != 9);
 }
