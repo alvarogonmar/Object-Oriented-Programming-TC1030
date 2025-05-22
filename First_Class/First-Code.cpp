@@ -99,7 +99,11 @@ int main()
 {
     Animal animal_1;
     Mammal mammal_1;
+    Viviparous viviparous_1;
 
     animal_1.eat();
     mammal_1.eat();
+    // viviparous_1.eat(); CANT DO
+    viviparous_1.bornAlive();
+    mammal_1.bornAlive();
 }
