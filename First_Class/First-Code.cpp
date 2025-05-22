@@ -4,6 +4,7 @@
 // < > used for standar library headers or libraries installed
 // " " for your own headers and files in your source tree
 #include <iostream> // in - input / output
+#include <string>
 #include "Animal.h"
 #include "Mammal.h"
 #include "Viviparous.h"
@@ -119,6 +120,13 @@ int main()
     int userInput = 0;
     do
     {
+        std::cout << "give me a number!" << std::endl;
+        std::cin >> userInput;
 
+        std::cout << "give me a string!" << std::endl;
+        std::cin >> value2;
+
+        std::cout << "give me a another string!" << std::endl;
+        // std::getline(std::cin, value3);
     } while (userInput != 9);
 }
