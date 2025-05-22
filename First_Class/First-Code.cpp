@@ -16,7 +16,7 @@
 // visual tool hekps us develop software, like Visual Studio, xcode, visual studio code, etc.
 
 // main function: in c++ we hacve a main entry point that willl run when we "press play"
-int main()
+int previousMain()
 {
     // :: - scope resolution operator
     // \n - line break o endl
@@ -92,3 +92,5 @@ int main()
     } while (i < 10);
     return 0;
 }
+
+int main() {}
