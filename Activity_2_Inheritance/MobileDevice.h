@@ -13,4 +13,10 @@ protected:
 
 public:
     MobileDevice(int ram, double speed, double size, string brand, double screen) : Computer(ram, speed), Camera(size), brand(brand), screenSize(screen) {}
+
+    void takePicture() override
+    {
+        cout << "MobileDevice " << brand << " took a picture with lens size: "
+             << lensSize << " mm, on screen size: " << screenSize << " inches." << endl;
+    }
 };
