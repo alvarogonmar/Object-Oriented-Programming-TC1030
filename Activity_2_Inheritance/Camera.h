@@ -8,5 +8,5 @@ protected:
 
 public:
     Camera(double lensSize);
-    void takePicture();
+    virtual void takePicture();
 };
