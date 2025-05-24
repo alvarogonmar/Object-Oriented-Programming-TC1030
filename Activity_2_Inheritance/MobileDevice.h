@@ -19,4 +19,9 @@ public:
         cout << "MobileDevice " << brand << " took a picture with lens size: "
              << lensSize << " mm, on screen size: " << screenSize << " inches." << endl;
     }
+
+    void takePicture(int time)
+    {
+        cout << "Taking picture in " << time << " seconds... Nice! Picture taken!" << endl;
+    }
 };
