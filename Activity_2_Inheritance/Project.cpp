@@ -2,6 +2,7 @@
 #include <string>
 #include "Computer.h"
 #include "Camera.h"
+#include "MobileDevice.h"
 
 int main()
 {
@@ -10,4 +11,8 @@ int main()
 
     Camera camera1(19.20);
     camera1.takePicture();
+
+    MobileDevice chinaPhone(16, 3.0, 18, "Apple", 6.7);
+    chinaPhone.turnOn();
+    chinaPhone.takePicture(3);
 }
