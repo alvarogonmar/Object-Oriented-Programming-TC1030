@@ -5,6 +5,11 @@ using namespace std;
 MobileDevice::MobileDevice(int ram, double speed, double lens, string brand, double screen)
     : Computer(ram, speed), Camera(lens), brand(brand), screenSize(screen) {}
 
+// void MobileDevice::turnOn()
+// {
+//     cout << "ChinaPhone turned on. RAM: " << ramAmount
+//          << " GB, Processor Speed: " << processorClockSpeed << " GHz" << endl;
+// }
 void MobileDevice::takePicture()
 {
     cout << "MobileDevice " << brand
