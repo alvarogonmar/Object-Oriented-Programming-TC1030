@@ -32,5 +32,6 @@ int main()
         // when you do your project you WILL have a big structure here
         // (if - else if - switch)
         // DISTRIBUTE YOUR CODE
+        // antipattern - GOD CLASS
     } while (userOption != 9);
 }
