@@ -68,5 +68,8 @@ int main()
     // they can have soe values to begin with
     vector<int> numbers = {1, 5, 10, 15};
 
+    // how to add new stuff at the end
+    numbers.push_back(32);
+
     delete v2;
 }
