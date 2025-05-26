@@ -56,4 +56,7 @@ int main()
 
     // new vs malloc
     // both allocate memory, new creates an object specific type
+
+    // RULE: when we do a pointer we must have delete somewhere
+    delete v2;
 }
