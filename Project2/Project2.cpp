@@ -62,6 +62,11 @@ int main()
     // RULE: when we do a pointer we must have delete somewhere
 
     // VECTORS - Lineal data structures can be used to save objects created froms strings in a
-    vector<int> numbers;
+    // vectors can be initializaed with no values
+    // vector<int> numbers;
+
+    // they can have soe values to begin with
+    vector<int> numbers = {1, 5, 10, 15};
+
     delete v2;
 }
