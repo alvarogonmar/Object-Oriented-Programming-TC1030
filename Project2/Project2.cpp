@@ -22,6 +22,10 @@ int main()
         // we need to flush the line before we read a whole line
         // cin.ignore(amountOfCharactersToIgnore, characterToSearchFor);
         cin.ignore(numeric_limits<streamsize>::max(), '\n'); // sirve para limpiar la memoria del buffer
+
         cout << "write a string" << endl;
+        getline(cin, stringInput);
+
+        cout << "your input: " << userOption << " " << stringInput << endl;
     } while (userOption != 9);
 }
