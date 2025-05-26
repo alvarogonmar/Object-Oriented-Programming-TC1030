@@ -4,9 +4,10 @@
 // work a bit with vector
 // read files
 #include <iostream>
+#include "Vehicle.h"
 using namespace std;
 
-int main()
+int main2()
 {
     // delcared outside because of scope
     cout << "Este es mi codigo para el proyecto" << endl;
@@ -34,4 +35,25 @@ int main()
         // DISTRIBUTE YOUR CODE
         // antipattern - GOD CLASS
     } while (userOption != 9);
+    return -1;
+}
+
+int main()
+{
+    Vehicle v1;
+    // lets do some memory leaks
+    // this happens in unmanaged code
+    // 2 categories of code based on memory management:
+    // 1. Managed - Object that have no referenced are cleaned up by the garbage collector
+    // 2. Unmanaged - when we allotcate an object in memory WE MUST CLEAN AFTER OURSELVES
+
+    // - POINTER - a numeric value that represents a memory address
+    // old school pointers and smart pointers
+    // upside - you can reference a particular object anywhere
+    // downside - you are responsible of cleaning it after use
+
+    Vehicle *v2 = new Vehicle(); // Pointer - usar new, va a retornar reference del Vehicle
+
+    // new vs malloc
+    // both allocate memory, new creates an object specific type
 }
