@@ -79,5 +79,10 @@ int main()
         cout << numbers[i] << endl;
     }
 
+    // range-based for loop
+    for (int currentNumber : numbers)
+    {
+        cout << currentNumber << endl;
+    }
     delete v2;
 }
