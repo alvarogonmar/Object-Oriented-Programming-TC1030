@@ -84,5 +84,12 @@ int main()
     {
         cout << currentNumber << endl;
     }
+
+    // how to remove last element
+    numbers.pop_back();
+    for (int currentNumber : numbers)
+    {
+        cout << currentNumber << endl;
+    }
     delete v2;
 }
