@@ -12,6 +12,8 @@ int main()
     cout << "Este es mi codigo para el proyecto" << endl;
 
     int userOption = 0;
+    string stringInput;
+
     do
     {
         cout << "Choose a number" << endl;
@@ -20,5 +22,6 @@ int main()
         // we need to flush the line before we read a whole line
         // cin.ignore(amountOfCharactersToIgnore, characterToSearchFor);
         cin.ignore(numeric_limits<streamsize>::max(), '\n'); // sirve para limpiar la memoria del buffer
+        cout << "write a string" << endl;
     } while (userOption != 9);
 }
