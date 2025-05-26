@@ -60,5 +60,8 @@ int main()
     // both allocate memory, new creates an object specific type
 
     // RULE: when we do a pointer we must have delete somewhere
+
+    // VECTORS - Lineal data structures can be used to save objects created froms strings in a
+    vector<int> numbers;
     delete v2;
 }
