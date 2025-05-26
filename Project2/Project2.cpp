@@ -71,5 +71,13 @@ int main()
     // how to add new stuff at the end
     numbers.push_back(32);
 
+    // print contents:
+    for (int i = 0; i < numbers.size(); i++)
+    {
+        // how to access a particular members
+        // vector[index]
+        cout << numbers[i] << endl;
+    }
+
     delete v2;
 }
