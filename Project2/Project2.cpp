@@ -27,5 +27,10 @@ int main()
         getline(cin, stringInput);
 
         cout << "your input: " << userOption << " " << stringInput << endl;
+
+        // A THING TO CONSIDER!
+        // when you do your project you WILL have a big structure here
+        // (if - else if - switch)
+        // DISTRIBUTE YOUR CODE
     } while (userOption != 9);
 }
