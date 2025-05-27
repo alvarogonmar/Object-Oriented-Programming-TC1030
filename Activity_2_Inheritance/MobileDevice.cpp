@@ -12,7 +12,7 @@ void MobileDevice::turnOn()
 }
 void MobileDevice::takePicture()
 {
-    cout << "MobileDevice " << brand
+    cout << brand
          << " took a picture with lens size: " << lensSize
          << " mm, on screen size: " << screenSize << " inches." << endl;
 }

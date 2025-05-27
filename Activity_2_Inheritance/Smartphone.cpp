@@ -7,6 +7,6 @@ Smartphone::Smartphone(int ram, double speed, double lens, string brand, double 
 
 void Smartphone::takePicture()
 {
-    cout << "Smartphone with carrier: " << carrier << " - " << endl;
+    cout << "Smartphone with carrier: " << carrier << " - Brand: ";
     MobileDevice::takePicture(); // Invoking super class version
 }
