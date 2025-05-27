@@ -9,5 +9,5 @@ protected:
 
 public:
     Computer(int ram, double speed);
-    void turnOn(); // poner virtual
+    virtual void turnOn(); // poner virtual
 };
