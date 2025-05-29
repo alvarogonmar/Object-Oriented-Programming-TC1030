@@ -10,12 +10,12 @@ class MobileDevice : public Computer, public Camera
 {
 protected:
     string brand;
-    double screenSize; // usa double para pulgadas
+    double screenSize;
 
 public:
     MobileDevice(int ram, double speed, double lens, string brand, double screen);
 
-    void turnOn() override; // poner override
+    // void turnOn() override;
     void takePicture() override;
     void takePicture(int time);
 };
