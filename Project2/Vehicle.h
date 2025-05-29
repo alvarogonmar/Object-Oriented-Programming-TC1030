@@ -17,4 +17,8 @@ public:
 
     // abstract classes have 1 big restriction - yu cannot initialize objects of this type
     virtual string move() = 0; // Solo se define en firma, va suceder, existe pero no decimos que hace, por ejempl, todos los vehiculos se mueven pero la manera es distinta
+
+    // MORE ABOUT ABSTRACT METHODS
+    // in other languages interfaces exists
+    // interfaces are classes with only abstract methods
 };
