@@ -40,7 +40,7 @@ int main2()
     return -1;
 }
 
-int main()
+int main3()
 {
     // ESTO YA NO FUNCIONA Vehicle v1;
     // lets do some memory leaks
@@ -92,4 +92,9 @@ int main()
         cout << currentNumber << endl;
     }
     // delete v2;
+}
+
+int maint()
+{
+    // POLYMORPHIMS
 }
