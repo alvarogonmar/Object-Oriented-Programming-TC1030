@@ -111,4 +111,7 @@ int main()
     // & - reference, get memory address of an object
     // WE MUST USE DESTROY WHERE WE DO NEW
     Vehicle *v1 = &h1;
+    // can I invoke move()  on a vehicle?
+    // YES! the object contains a reference to a subclass' object
+    cout << v1->move() << endl;
 }
