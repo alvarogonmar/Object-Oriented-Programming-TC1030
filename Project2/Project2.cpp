@@ -111,7 +111,12 @@ int main()
     // & - reference, get memory address of an object
     // WE MUST USE DESTROY WHERE WE DO NEW
     Vehicle *v1 = &h1;
+    Vehicle *v2 = &m1;
     // can I invoke move()  on a vehicle?
     // YES! the object contains a reference to a subclass' object
+
+    // Arrow operator: when using a pointer instead of . we use ->
+    // it is used to acces a member (same as . )
     cout << v1->move() << endl;
+    cout << v2->move() << endl;
 }
