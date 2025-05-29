@@ -42,7 +42,7 @@ int main2()
 
 int main()
 {
-    Vehicle v1;
+    // ESTO YA NO FUNCIONA Vehicle v1;
     // lets do some memory leaks
     // this happens in unmanaged code
     // 2 categories of code based on memory management:
@@ -54,7 +54,7 @@ int main()
     // upside - you can reference a particular object anywhere
     // downside - you are responsible of cleaning it after use
 
-    Vehicle *v2 = new Vehicle(); // Pointer - usar new, va a retornar reference del Vehicle
+    // ESTO YA NO FUNCIONA Vehicle *v2 = new Vehicle(); // Pointer - usar new, va a retornar reference del Vehicle
 
     // new vs malloc
     // both allocate memory, new creates an object specific type
@@ -91,5 +91,5 @@ int main()
     {
         cout << currentNumber << endl;
     }
-    delete v2;
+    // delete v2;
 }
