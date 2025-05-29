@@ -5,6 +5,8 @@
 // read files
 #include <iostream>
 #include "Vehicle.h"
+#include "Motorcyple.h"
+#include "Helicopter.h"
 #include <string>
 #include <vector>
 using namespace std;
@@ -97,4 +99,10 @@ int main3()
 int maint()
 {
     // POLYMORPHIMS
+    // a single objects can represent different types / classes
+    Helicopter h1;
+    Motorcycle m1;
+
+    h1.move();
+    // Vehicle v1 = h1
 }
