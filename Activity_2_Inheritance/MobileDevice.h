@@ -15,7 +15,7 @@ protected:
 public:
     MobileDevice(int ram, double speed, double lens, string brand, double screen);
 
-    // void turnOn() override;
+    void turnOn() override;
     void takePicture() override;
     void takePicture(int time);
 };
