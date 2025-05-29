@@ -7,6 +7,7 @@
 #include "Vehicle.h"
 #include "Motorcyple.h"
 #include "Helicopter.h"
+#include "OOPUtils.h"
 #include <string>
 #include <vector>
 using namespace std;
@@ -129,4 +130,7 @@ int main()
     {
         cout << curreentVehicle->move() << endl;
     }
+    // HOW TO ACCESS A STATIC MEMBER
+    // Class::member()
+    OOPUtils::staticTest();
 }
