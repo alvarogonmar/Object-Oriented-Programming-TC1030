@@ -9,4 +9,5 @@ protected:
 public:
     Smartphone(int ram, double speed, double lens, string brand, double screen, string carrier);
     void takePicture() override;
+    void takePicture(int time);
 };
