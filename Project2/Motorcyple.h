@@ -2,5 +2,5 @@
 #include "Vehicle.h"
 class Motorcycle : public Vehicle
 {
-    string move() = 0 override;
+    string move() override;
 };
