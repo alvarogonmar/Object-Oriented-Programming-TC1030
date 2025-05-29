@@ -123,4 +123,10 @@ int main()
     vector<Vehicle *> vehicleCotainer;
     vehicleCotainer.push_back(v1);
     vehicleCotainer.push_back(&m1); // Tambien sirve ponerle el objecto
+
+    cout << "*** PRINTING A VECTOR ****" << endl;
+    for (Vehicle *curreentVehicle : vehicleCotainer)
+    {
+        cout << curreentVehicle->move() << endl;
+    }
 }
