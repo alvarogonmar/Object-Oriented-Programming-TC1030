@@ -94,15 +94,21 @@ int main3()
         cout << currentNumber << endl;
     }
     // delete v2;
+    return -1;
 }
 
-int maint()
+int main()
 {
     // POLYMORPHIMS
     // a single objects can represent different types / classes
     Helicopter h1;
     Motorcycle m1;
 
-    h1.move();
-    // Vehicle v1 = h1
+    cout << h1.move() << endl;
+    cout << m1.move() << endl;
+    // Polymorphism in action!
+    // remember * is for a pointer
+    // & - reference, get memory address of an object
+    // WE MUST USE DESTROY WHERE WE DO NEW
+    Vehicle *v1 = &h1;
 }
