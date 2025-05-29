@@ -119,4 +119,8 @@ int main()
     // it is used to acces a member (same as . )
     cout << v1->move() << endl;
     cout << v2->move() << endl;
+
+    vector<Vehicle *> vehicleCotainer;
+    vehicleCotainer.push_back(v1);
+    vehicleCotainer.push_back(&m1); // Tambien sirve ponerle el objecto
 }
