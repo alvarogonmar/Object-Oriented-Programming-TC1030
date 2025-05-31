@@ -4,5 +4,6 @@ using namespace std;
 
 string Student::toString() const
 {
-    // ypu CAN invoke the ersion of the superclass if you wish
+    // you CAN invoke the version of the superclass if you wish
+    return "Name: " + name + " Enrollment ID: " + to_string(enrollmentId);
 }
