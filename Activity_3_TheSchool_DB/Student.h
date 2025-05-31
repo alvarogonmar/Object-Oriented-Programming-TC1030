@@ -9,6 +9,6 @@ private:
     string enrollmentId;
 
 public:
-    Student(std::string name, int age, std::string enrollmentId);
+    Student(string name, int age, string enrollmentId);
     string toString() const override;
 };
