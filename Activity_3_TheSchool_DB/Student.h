@@ -9,5 +9,5 @@ private:
     double enrollmentId;
 
 public:
-    Student(string name, int age, double ennrollmentId);
+    Student(string name, int age, double enrollmentId);
 };
