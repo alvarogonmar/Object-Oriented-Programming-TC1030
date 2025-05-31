@@ -6,9 +6,9 @@ using namespace std;
 class Student : public Person
 {
 private:
-    double enrollmentId;
+    string enrollmentId;
 
 public:
-    Student(string name, int age, double enrollmentId);
+    Student(std::string name, int age, std::string enrollmentId);
     string toString() const override;
 };
