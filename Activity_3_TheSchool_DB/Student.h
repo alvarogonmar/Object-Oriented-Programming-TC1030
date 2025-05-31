@@ -4,4 +4,6 @@
 
 class Student : public Person
 {
+private:
+    double enrollmentId;
 };
