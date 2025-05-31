@@ -9,6 +9,6 @@ protected:
     string teacherId;
 
 public:
-    Teacher(string name, int age, double teacherId);
+    Teacher(string name, int age, string teacherId);
     string toString() const override;
 };
