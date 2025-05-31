@@ -10,4 +10,5 @@ private:
 
 public:
     Student(string name, int age, double enrollmentId);
+    string toString() const override;
 };
