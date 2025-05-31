@@ -6,7 +6,7 @@ using namespace std;
 class Teacher : public Person
 {
 protected:
-    double teacherId;
+    string teacherId;
 
 public:
     Teacher(string name, int age, double teacherId);

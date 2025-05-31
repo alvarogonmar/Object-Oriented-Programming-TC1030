@@ -4,5 +4,5 @@ using namespace std;
 
 string Teacher::toString() const
 {
-    return "Name: " + name + " Enrollment ID: " + to_string(teacherId);
+    return "Name: " + name + " Enrollment ID: " + teacherId;
 }
