@@ -9,5 +9,5 @@ protected:
 
 public:
     Person(string name, int age);
-    void toString(); // poner virtual
+    virtual string toString() const = 0; //  abstracto
 };
