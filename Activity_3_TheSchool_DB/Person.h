@@ -4,7 +4,10 @@
 class Person
 {
 protected:
-    string lensSize;
+    string name;
+    int age;
 
 public:
+    Person(string name, int age);
+    void toString(); // poner virtual
 };
