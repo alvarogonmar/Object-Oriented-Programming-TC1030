@@ -6,5 +6,5 @@
 
 int main()
 {
-    vector<Person *> personContainer;
+    vector<Person *> peopleContainer;
 }
