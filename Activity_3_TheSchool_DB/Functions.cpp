@@ -9,9 +9,8 @@ void addStudent(vector<Person *> &peopleContainer)
     int age;
 
     cout << "Enter Student name: ";
-    cin >> name;
-    cin.ignore(numeric_limits<streamsize>::max(), '\n');
     getline(cin, name);
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
     cout << "Enter Student age: ";
     cin >> age;
@@ -31,9 +30,8 @@ void addTeacher(vector<Person *> &peopleContainer)
     int age;
 
     cout << "Enter Teacher name: ";
-    cin >> name;
-    cin.ignore(numeric_limits<streamsize>::max(), '\n');
     getline(cin, name);
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
     cout << "Enter Teacher age: ";
     cin >> age;
