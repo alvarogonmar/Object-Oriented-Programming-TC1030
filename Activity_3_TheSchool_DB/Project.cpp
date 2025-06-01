@@ -14,7 +14,8 @@ int main()
     do
     {
         cout << "Choose an Option" << endl;
-        cout << "1. Add Student'\n' 2. Add Teacher'\n' 3. Print everyone in the system'\n'" << endl;
+        cout << "1. Add Student\n2. Add Teacher\n3. Print everyone in the system\n9. Exit Program"
+             << endl;
         cin >> userOption;
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
