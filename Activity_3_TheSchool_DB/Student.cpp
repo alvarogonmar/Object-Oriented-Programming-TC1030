@@ -6,5 +6,5 @@ Student::Student(string name, int age, string enrollmentId) : Person(name, age),
 
 string Student::toString() const
 {
-    return "Name: " + name + " Enrollment ID: " + enrollmentId;
+    return "Name: " + name + " Age: " + to_string(age) + " Enrollment ID: " + enrollmentId;
 }
