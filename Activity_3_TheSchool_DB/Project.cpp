@@ -27,7 +27,11 @@ int main()
         }
         else if (userOption == 3)
         {
-                }
+            for (Person *person : peopleContainer)
+            {
+                cout << person->toString() << endl;
+            }
+        }
 
     } while (userOption != 9);
 }
