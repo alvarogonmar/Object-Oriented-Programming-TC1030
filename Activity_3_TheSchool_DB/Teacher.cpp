@@ -7,5 +7,5 @@ Teacher::Teacher(string name, int age, string teacherId) : Person(name, age), te
 
 string Teacher::toString() const
 {
-    return "Name: " + name + " Enrollment ID: " + teacherId;
+    return "Name: " + name + " Age: " + to_string(age) + " Teacher ID: " + teacherId;
 }
