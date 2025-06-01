@@ -21,6 +21,13 @@ int main()
         {
             addStudent(peopleContainer);
         }
+        else if (userOption == 2)
+        {
+            addTeacher(peopleContainer);
+        }
+        else if (userOption == 3)
+        {
+                }
 
     } while (userOption != 9);
 }
