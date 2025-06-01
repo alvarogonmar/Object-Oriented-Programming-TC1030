@@ -1,8 +1,9 @@
 #include "Student.h"
 #include "Teacher.h"
+#include "Functions.h"
 #include <iostream>
 
-void addStudent(vector<Person *> peopleContainer)
+void addStudent(vector<Person *> &peopleContainer)
 {
     string name, enrollmentId;
     int age;
@@ -24,7 +25,7 @@ void addStudent(vector<Person *> peopleContainer)
     cout << "Student added successfully!\n";
 }
 
-void addTeacher(vector<Person *> peopleContainer)
+void addTeacher(vector<Person *> &peopleContainer)
 {
     string name, teacherId;
     int age;
