@@ -34,4 +34,5 @@ int main()
         }
 
     } while (userOption != 9);
+    cout << "Goodbye!" << endl;
 }
