@@ -11,6 +11,7 @@ public:
 
     // jusr for example
     int anio = 2025;
+    string modelo = "vehiculo chido";
 
     // pure virtual methods (abstract in other lenguages)
     // abstract classes

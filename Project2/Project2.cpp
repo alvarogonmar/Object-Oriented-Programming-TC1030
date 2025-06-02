@@ -141,7 +141,7 @@ int main4()
 // operator overload
 ostream &operator<<(ostream &os, const Vehicle &v)
 {
-    os << v.anio;
+    os << v.anio << " modelo: " << v.modelo;
     return os;
 }
 int main()
@@ -175,4 +175,8 @@ int main()
     {
         cerr << "FATAL AND TERRIBLE ERROR OPENING FILE!" << endl;
     }
+
+    // operator << overload example
+    Motorcycle motito;
+    cout << motito << endl;
 }
