@@ -98,7 +98,7 @@ int main3()
     return -1;
 }
 
-int main()
+int main4()
 {
     // POLYMORPHIMS
     // a single objects can represent different types / classes
@@ -133,4 +133,12 @@ int main()
     // HOW TO ACCESS A STATIC MEMBER
     // Class::member()
     OOPUtils::staticTest();
+    return -1;
+}
+
+int main()
+{
+    string source = "some%test";
+    string delimeter = "%";
+    OOPUtils::split(source, delimeter);
 }
