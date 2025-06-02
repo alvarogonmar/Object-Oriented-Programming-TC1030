@@ -164,4 +164,8 @@ int main()
         };
         file.close();
     }
+    else
+    {
+        cerr << "FATAL AND TERRIBLE ERROR OPENING FILE!" << endl;
+    }
 }
