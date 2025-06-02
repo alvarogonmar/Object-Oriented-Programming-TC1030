@@ -137,6 +137,13 @@ int main4()
     return -1;
 }
 // g++ Project2.cpp Helicopter.cpp Motorcycle.cpp OOPUtils.cpp Vehicle.cpp -o Project2
+
+// operator overload
+ostream &operator<<(ostream &os, const Vehicle &v)
+{
+    os << v.anio;
+    return os;
+}
 int main()
 {
     string source = "some%!test%!hello";

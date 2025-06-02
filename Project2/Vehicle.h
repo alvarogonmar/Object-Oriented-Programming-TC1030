@@ -9,6 +9,9 @@ public:
     // destructor
     ~Vehicle();
 
+    // jusr for example
+    int anio = 2025;
+
     // pure virtual methods (abstract in other lenguages)
     // abstract classes
 
@@ -16,7 +19,8 @@ public:
     // makes the class an abstract class
 
     // abstract classes have 1 big restriction - yu cannot initialize objects of this type
-    virtual string move() = 0; // Solo se define en firma, va suceder, existe pero no decimos que hace, por ejempl, todos los vehiculos se mueven pero la manera es distinta
+    virtual string
+    move() = 0; // Solo se define en firma, va suceder, existe pero no decimos que hace, por ejempl, todos los vehiculos se mueven pero la manera es distinta
 
     // MORE ABOUT ABSTRACT METHODS
     // in other languages interfaces exists
