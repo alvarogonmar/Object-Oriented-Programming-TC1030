@@ -180,3 +180,15 @@ int main()
     Motorcycle motito;
     cout << motito << endl;
 }
+
+/*
+TOPICS FOR EXAM
+- Classes
+- Objects
+- access modifiers (private, protected, public)
+- inheritance (polymorphims)
+- abstract methods(pure virtual)
+- pointers (new, delete)
+- using vector
+- cout, endl
+*/
