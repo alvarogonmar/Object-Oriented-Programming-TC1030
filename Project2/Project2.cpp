@@ -138,7 +138,11 @@ int main4()
 // g++ Project2.cpp Helicopter.cpp Motorcycle.cpp OOPUtils.cpp Vehicle.cpp -o Project2
 int main()
 {
-    string source = "some%test";
-    string delimeter = "%";
-    OOPUtils::split(source, delimeter);
+    string source = "some%!test%!hello";
+    string delimeter = "%!";
+    vector<string> parts = OOPUtils::split(source, delimeter);
+    for (string current : parts)
+    {
+        cout << "PART: " << current << endl;
+    }
 }

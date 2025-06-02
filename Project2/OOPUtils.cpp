@@ -45,6 +45,8 @@ vector<string> OOPUtils::split(const string &source, const string &delimiter)
 
         // search for new end position
         end = source.find(delimiter, start);
-        return result;
     }
+    // add the last part
+    result.push_back(source.substr(start));
+    return result;
 };
