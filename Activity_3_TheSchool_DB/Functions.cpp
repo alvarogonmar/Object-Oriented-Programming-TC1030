@@ -30,7 +30,6 @@ void addTeacher(vector<Person *> &peopleContainer)
 
     cout << "Enter Teacher name: ";
     getline(cin, name);
-    cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
     cout << "Enter Teacher age: ";
     cin >> age;
