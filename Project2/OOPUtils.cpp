@@ -38,6 +38,7 @@ vector<string> OOPUtils::split(const string &source, const string &delimiter)
         string part = source.substr(start, end - start);
 
         // save slice
+        result.push_back(part);
 
         // we need a new start
         start = end + delimiter.length();
