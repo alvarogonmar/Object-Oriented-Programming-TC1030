@@ -158,6 +158,10 @@ int main()
     if (file.is_open())
     {
         // go throught the file and read line by line
-        getline(file, currentLine);
+        while (getline(file, currentLine))
+        {
+            cout << "FILE reading: " << currentLine << endl;
+        };
+        file.close();
     }
 }
