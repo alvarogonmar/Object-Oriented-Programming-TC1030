@@ -9,5 +9,7 @@ class OOPUtils
 public:
     static void staticTest();
     static void cleanCin();
-    static vector<string> split(string delimiter);
+    // 2 ways to send a value throught an argument
+    // copy or reference
+    static vector<string> split(string &source, string &delimiter);
 };
