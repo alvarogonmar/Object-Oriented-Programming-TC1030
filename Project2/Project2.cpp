@@ -152,4 +152,12 @@ int main()
     // path - stirng that indicates a resources location
     // 2 choices: 1. relative path 2. Absolute path (Darle la ubicacion exacta del disco duro)
     ifstream file("Input.txt");
+
+    string currentLine;
+    // DO ACTUAL READING
+    if (file.is_open())
+    {
+        // go throught the file and read line by line
+        getline(file, currentLine);
+    }
 }
