@@ -4,7 +4,7 @@
 // work a bit with vector
 // read files
 #include <iostream>
-#include <fstream>
+#include <fstream> // para leer / escribir archivos
 #include "Vehicle.h"
 #include "Motorcyple.h"
 #include "Helicopter.h"
@@ -146,4 +146,10 @@ int main()
     {
         cout << "PART: " << current << endl;
     }
+
+    // FILE READING
+    // get reference to file
+    // path - stirng that indicates a resources location
+    // 2 choices: 1. relative path 2. Absolute path (Darle la ubicacion exacta del disco duro)
+    ifstream file("Input.txt");
 }
