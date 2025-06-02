@@ -34,10 +34,16 @@ vector<string> OOPUtils::split(const string &source, const string &delimiter)
     end = source.find(delimiter);
     while (end != string::npos)
     {
+        // get slice
         string part = source.substr(start, end - start);
+
+        // save slice
 
         // we need a new start
         start = end + delimiter.length();
+
+        // search for new end position
+        end = source.find(delimiter, start);
         return result;
     }
 };
