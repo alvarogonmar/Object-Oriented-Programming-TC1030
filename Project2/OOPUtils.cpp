@@ -20,5 +20,14 @@ vector<string> OOPUtils::split(const string &source, const string &delimiter)
     // there is a find method withiin the string that return the location of a string
 
     int pos = source.find(delimiter);
+
+    if (pos == string::npos)
+    {
+        cout << "STRING NOT FOUND" << endl;
+    }
+    else
+    {
+        cout << "String found at position: " << pos << endl;
+    }
     return result;
 };
