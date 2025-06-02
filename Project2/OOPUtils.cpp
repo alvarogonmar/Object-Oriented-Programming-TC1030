@@ -9,7 +9,7 @@ void OOPUtils::cleanCin()
 };
 
 // receive a string, breal it apart using the delimiter as a breakpoint, return a vector with the parts.
-vector<string> OOPUtils::split(string delimiter)
+vector<string> OOPUtils::split(const string &source, const string &delimiter)
 {
     vector<string> result;
 
@@ -18,5 +18,7 @@ vector<string> OOPUtils::split(string delimiter)
     int end;
 
     // there is a find method withiin the string that return the location of a string
+
+    int pos = source.find(delimiter);
     return result;
 };

@@ -11,5 +11,5 @@ public:
     static void cleanCin();
     // 2 ways to send a value throught an argument
     // copy or reference
-    static vector<string> split(string &source, string &delimiter);
+    static vector<string> split(const string &source, const string &delimiter);
 };
