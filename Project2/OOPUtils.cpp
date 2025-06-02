@@ -17,17 +17,21 @@ vector<string> OOPUtils::split(const string &source, const string &delimiter)
     int start = 0;
     int end;
 
-    // there is a find method withiin the string that return the location of a string
+    // // there is a find method withiin the string that return the location of a string
 
-    int pos = source.find(delimiter);
+    // int pos = source.find(delimiter);
 
-    if (pos == string::npos)
-    {
-        cout << "STRING NOT FOUND" << endl;
-    }
-    else
-    {
-        cout << "String found at position: " << pos << endl;
-    }
+    // if (pos == string::npos)
+    // {
+    //     cout << "STRING NOT FOUND" << endl;
+    // }
+    // else
+    // {
+    //     cout << "String found at position: " << pos << endl;
+    // }
+
+    // what we need to do is serche for the indexes
+    end = source.find(delimiter);
+    string part = source.substr(start, end - start);
     return result;
 };

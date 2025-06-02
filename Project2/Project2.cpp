@@ -135,7 +135,7 @@ int main4()
     OOPUtils::staticTest();
     return -1;
 }
-
+// g++ Project2.cpp Helicopter.cpp Motorcycle.cpp OOPUtils.cpp Vehicle.cpp -o Project2
 int main()
 {
     string source = "some%test";
