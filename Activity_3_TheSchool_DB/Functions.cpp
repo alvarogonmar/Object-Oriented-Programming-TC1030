@@ -10,14 +10,13 @@ void addStudent(vector<Person *> &peopleContainer)
 
     cout << "Enter Student name: ";
     getline(cin, name);
-    cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
     cout << "Enter Student age: ";
     cin >> age;
-    cin.ignore();
 
     cout << "Enter Student Enrollment ID: ";
     cin >> enrollmentId;
+
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
     peopleContainer.push_back(new Student(name, age, enrollmentId));
