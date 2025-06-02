@@ -33,5 +33,8 @@ vector<string> OOPUtils::split(const string &source, const string &delimiter)
     // what we need to do is serche for the indexes
     end = source.find(delimiter);
     string part = source.substr(start, end - start);
+
+    // we need a new start
+    start = end + delimiter.length();
     return result;
 };
