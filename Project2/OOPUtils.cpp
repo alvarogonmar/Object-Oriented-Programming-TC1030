@@ -12,5 +12,11 @@ void OOPUtils::cleanCin()
 vector<string> OOPUtils::split(string delimiter)
 {
     vector<string> result;
+
+    // go through the string search for location of delimiter and substring (create a string that is a part of another string)
+    int start = 0;
+    int end;
+
+    // there is a find method withiin the string that return the location of a string
     return result;
 };
