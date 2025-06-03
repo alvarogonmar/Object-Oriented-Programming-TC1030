@@ -10,5 +10,6 @@ protected:
 
 public:
     Person(string name, int age);
-    virtual string toString() const = 0; //  abstracto
+    virtual string
+    toString() = 0; //  abstracto
 };

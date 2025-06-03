@@ -10,5 +10,5 @@ protected:
 
 public:
     Teacher(string name, int age, string teacherId);
-    string toString() const override;
+    string toString() override;
 };
